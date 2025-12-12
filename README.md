@@ -1,4 +1,4 @@
-# 📦 ETL/ELT Analytics Engineering Pipeline
+# 📦 ETL/ELT Analytics Engineering Pipeline & SQL Data Warehousing
 End-to-End Retail Analytics Platform using the Medallion Architecture (Bronze → Silver → Gold), DuckDB, PySpark, Airflow, and Power BI
 
 ## ⭐ 1. Overview
@@ -25,6 +25,16 @@ This project is intentionally built for scalability, clarity, and enterprise-rea
 - Silver: Cleaned + conformed models
 - Gold: Fact & Dim tables with surrogate keys
 
+### ✔ Power BI Dashboard
+- Executive Sales Overview
+  ![Sales Dashboard](https://github.com/user-attachments/assets/0b824cd2-46b6-4314-8b77-8a8808fffffe)
+
+- Customer Insights
+  ![Customer Insights Dashboard](https://github.com/user-attachments/assets/c3959568-5ea8-455f-a475-e0a31d87c254)
+
+- Product & Category Performance
+ ![Product Dashboard](https://github.com/user-attachments/assets/1541339f-e8d5-486a-bc0e-4cd8f9670855)
+
 ### ✔ PySpark Analytics Module
 - Customer segmentation (High / Medium / Low) based on spending percentiles.
 
@@ -39,10 +49,6 @@ Tasks:
 - export_for_powerbi
 DAG reflects a real Medallion workflow.
 
-### ✔ Power BI Dashboard
-- Executive Sales Overview
-- Customer Insights
-- Product & Category Performance
 
 ## ⭐ 4. Tech Stack
 | Layer            | Tools / Technologies                         |
@@ -100,7 +106,7 @@ Pipeline tasks:
 - Run PySpark segmentation
 - Export CSVs for Power BI
 
-## ⭐ 7. Business Insights (Sample Findings)
+## ⭐ 8. Business Insights (Sample Findings)
 - Product Line R accounts for ~40% of total revenue
 - Subcategory Helmets has the highest unit volume
 - Customer segment “High Value” contributes over 55% of revenue
@@ -108,7 +114,7 @@ Pipeline tasks:
 - Revenue spikes during Nov–Jan (holiday period)
 - Repeat customers generate 2.4× more revenue than one-time buyers
 
-## ⭐ 8. Conclusion
+## ⭐ 9. Conclusion
 This project demonstrates real-world analytics engineering skills:
 - Data ingestion
 - Data modeling
